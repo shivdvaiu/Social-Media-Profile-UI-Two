@@ -129,7 +129,7 @@ class _BaseViewState extends State<BaseView> {
               gradient: LinearGradient(
                   begin: Alignment.topRight,
                   end: Alignment.centerRight,
-                  colors: [Color(0xffebeff5), Color(0xffaed6ea)]),
+                  colors: [Color(0xffebeff5), Color(0xffebeff5).withOpacity(0.7)]),
             ),
             // color: Theme.of(context).colorScheme.background,
             child: Stack(fit: StackFit.expand, children: [

@@ -138,7 +138,7 @@ class ChatView extends StatelessWidget {
           gradient: LinearGradient(
               begin: Alignment.topRight,
               end: Alignment.centerRight,
-              colors: [Color(0xffebeff5), Color(0xffaed6ea)]),
+              colors: [Color(0xffebeff5), Color(0xffebeff5).withOpacity(0.7)]),
         ),
       ),
     );

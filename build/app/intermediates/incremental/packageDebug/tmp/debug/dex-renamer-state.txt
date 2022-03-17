@@ -1,4 +1,4 @@
-#Thu Mar 17 15:37:15 IST 2022
+#Thu Mar 17 16:21:38 IST 2022
 base.0=/Users/shvdvaio/Desktop/Node Js/Social-Media-Profile-UI-Two/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

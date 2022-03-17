@@ -258,7 +258,12 @@ class HomeView extends StatelessWidget {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(30),
               child: Container(
-                color: Theme.of(context).colorScheme.onSurface.withOpacity(0.5),
+                decoration: BoxDecoration(
+                
+                    color: Theme.of(context)
+                        .colorScheme
+                        .onSurface
+                        .withOpacity(0.5)),
                 child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
