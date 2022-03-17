@@ -150,20 +150,22 @@ class ChatView extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Container(
+
+          margin: EdgeInsets.only(left: 10),
           child: Padding(
             padding: const EdgeInsets.all(19.0),
             child: Text(
               "Hello pak,bisa reservasi cafena untuk acara workshop ?",
               style: Theme.of(context).textTheme.headline1!.copyWith(
                   fontSize: 10.sp,
-                  color: colorScheme.primary,
+                  color: colorScheme.onSecondary,
                   fontWeight: FontWeight.w600),
             ),
           ),
           decoration: BoxDecoration(
               color: colorScheme.onSurface,
               borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(22),
+                topLeft: Radius.circular(0),
                 topRight: Radius.circular(22),
                 bottomLeft: Radius.circular(22),
               )),
@@ -189,6 +191,7 @@ class ChatView extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Container(
+                   margin: EdgeInsets.only(right: 10),
           child: Padding(
             padding: const EdgeInsets.all(19.0),
             child: Text(
